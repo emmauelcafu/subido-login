@@ -2,6 +2,7 @@ const Usuario = require("../models/registro");
 const jwt = require("jsonwebtoken");
 
 const llavesecreta = "ojonadiedebesaber";
+
     const  loginHandler =async (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
