@@ -5,7 +5,7 @@ const router = Router()
 
 
 //rutas
-router.use("/login",loginRouter)
+router.use("/",loginRouter)
 
 
 

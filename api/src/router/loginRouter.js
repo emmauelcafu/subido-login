@@ -1,13 +1,15 @@
 const { Router } = require("express");
-const { loginHandler, getloginventas ,loginHandlerpost,validateToken } = require("../handler/loginHandler");
-// const validateToken = require("../middleware/token");
+const {validacionToken} =require("../middleware/token");
+const { loginHandler, registrarHandler,datoHandler } = require("../handler/loginHandler");
+
 
 const loginRouter = Router();
 
-loginRouter.post("/", loginHandler);
-loginRouter.post("/posts",validateToken,loginHandlerpost);
+loginRouter.post("/login", loginHandler);
+
+loginRouter.post("/registrar",registrarHandler);
 
 
-loginRouter.get("/contenido",validateToken, getloginventas);
+loginRouter.get("/datos",validacionToken,datoHandler);
 
 module.exports = loginRouter;
