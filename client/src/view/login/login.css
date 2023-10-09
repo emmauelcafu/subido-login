@@ -1,0 +1,8 @@
+.div-login{
+    background-color: rgba(176, 179, 174, 0.596);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+}

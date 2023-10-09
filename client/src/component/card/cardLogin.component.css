@@ -1,0 +1,73 @@
+.div-content-card{
+    background-color: rgba(86, 171, 211, 0.808);
+    width: 350px;
+    height: 400px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    
+}
+.div-h4{
+    text-align: center;
+}
+.div-input {
+    display: flex;
+    justify-content: center;
+  
+
+}
+.div-input input[type="text"]{
+    width: 90%;
+    margin-top: 25px;
+    border: none;
+    line-height: 3;
+    border-radius: 3px;
+    font-size:15px
+}
+
+.div-input input[type="password"]{
+    width: 85%;
+    margin-top: 25px;
+    border: none;
+    line-height: 3;
+    border-radius: 3px;
+    font-size:15px
+}
+
+
+
+.div-input ::placeholder{
+    text-align: center;
+    color: rgba(6, 19, 31, 0.568);
+}
+
+.div-submit{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.div-submit input{
+    background-color: rgba(106, 180, 214, 0.808);
+    border: none;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.div-p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+.div-button{
+    margin-top: 30px;
+    width: 20px; /* Ancho deseado */
+    height: 20px; /* Altura deseada */
+    background-color: #030e1a; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    border: none; /* Elimina el borde */
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
